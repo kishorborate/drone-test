@@ -1,0 +1,14 @@
+---
+kind: pipeline
+type: docker
+name: drone-test
+
+platform:
+  arch: amd64
+  os: linux
+
+steps:
+- name: audit
+  image: node:12-alpine
+  commands:
+  - npm audit
