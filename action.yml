@@ -1,0 +1,5 @@
+- name: Send message to ms teams
+  uses: dhollerbach/github-action-send-message-to-ms-teams@1.0.10
+  with:
+    webhook: 'https://outlook.office.com/webhook/28b20eea-36b6-4e90-b42d-55dd3cba6749@8e6c5a15-101a-47ca-b7a3-a156173191e8/IncomingWebhook/88ccfa2e3cd8436f91ed55bb4d8e2259/f68d6d9d-072c-4129-aca0-b0104cb65dcb'
+    message: 'W00t it worked!'
